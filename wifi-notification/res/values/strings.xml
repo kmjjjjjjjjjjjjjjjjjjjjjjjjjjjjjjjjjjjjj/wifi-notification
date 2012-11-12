@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Wi-Fi Notification</string>
     <string name="ticker_connected">に接続しました。</string>
-    <string name="check_ongoing">通知を残す</string>
+    <string name="check_ongoing">通知を消さない</string>
 </resources>
