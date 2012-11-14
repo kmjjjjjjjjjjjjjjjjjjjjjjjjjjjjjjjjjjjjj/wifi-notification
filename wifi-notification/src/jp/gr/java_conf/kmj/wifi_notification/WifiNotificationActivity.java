@@ -30,7 +30,7 @@ public class WifiNotificationActivity extends PreferenceActivity {
 		CheckBoxPreference checkOngoing = (CheckBoxPreference) this
 				.findPreference("ongoing");
 		checkOngoing.setTitle(R.string.check_ongoing);
-		checkOngoing.setEnabled(currentOngoing);
+		checkOngoing.setChecked(currentOngoing);
 		checkOngoing
 				.setOnPreferenceChangeListener(this.checkOngoingOnPreferenceChangeListener);
 
